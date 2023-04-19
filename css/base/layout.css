@@ -4,9 +4,21 @@
 }
 
 .container > .row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 60px 10%;
     width: 1000px;
     margin: 0 calc(50% - 500px);
 }
+.row > .column  {
+   width: 50%;
+
+}
+.column.right-column {
+    width: 40%;
+    margin-left: auto;
+ 
+ } 
 .container > .row-short {
     display: flex;
     flex-direction: column;
@@ -35,6 +47,10 @@
     .container > .row-short {
         width: 400px;
         margin: 0 calc(50% - 200px);
+    }
+    .container.column,
+    .column.right-column {
+        width: 100%;
     }
 }
 
