@@ -16,3 +16,32 @@ body {
 .bg-secondary {
     background-color: #ea1e63;
 }
+
+footer .conatiner {
+    padding-top: 0;
+}
+
+.row.socials {
+    display: flex;
+    gap: 10px;
+    text-decoration: none;
+    border-bottom:  1px solid white;
+    padding: 20px 0;
+    margin-bottom: 40px;
+
+}
+.row.socials >a {
+    height: 3em;
+    width: 3em;
+    line-height: 3em;
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 50%;
+    transition: all 0.3s;
+}
+
+.row.socials >a:hover {
+    background-color: #fff;
+    color:#03a9f3;
+}
