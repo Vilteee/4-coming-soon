@@ -7,9 +7,11 @@
 /* 3rd-party */
 @import '../3rd-party/font-awesome.min.css';
 
+
 /* components */
 @import '../components/clock.css';
 @import '../components/progress-bar.css';
+@import '../components/mouse.css';
 
 /* custom style below this comment line */
 
