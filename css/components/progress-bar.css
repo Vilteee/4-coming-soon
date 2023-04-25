@@ -26,12 +26,20 @@
 }
 
 .progress-bar > .bottom > .progress {
+    height: 100%;
+    width: 90%;
+}
+
+.progress-bar .progress > .bar{
 background-color: #03a9f3;
 height: 100%;
 width: 0;
 animation-name: loading;
-animation-duration: 0.5s;
-animation-delay: 3s;
+animation-duration: 3s;
+animation-delay: 1s;
+animation-fill-mode: forwards;
+animation-iteration-count: 1;
+animation-timing-function: linear;
 
 
 }

@@ -12,9 +12,17 @@
 @import '../components/clock.css';
 @import '../components/progress-bar.css';
 @import '../components/mouse.css';
+@import '../components/form.css';
 
 /* custom style below this comment line */
+.hero {
+    background-image: url(../../img/background.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 
+  
+}
 
 .logo {
     width: 3rem;
