@@ -28,7 +28,21 @@
 .progress-bar > .bottom > .progress {
 background-color: #03a9f3;
 height: 100%;
-width: 90%;
+width: 0;
+animation-name: loading;
+animation-duration: 0.5s;
+animation-delay: 3s;
+
 
 }
 
+@keyframes loading {
+    0% {
+        width: 0%;
+     
+    }
+    100% {
+        width: 100%;
+     
+    }
+}
