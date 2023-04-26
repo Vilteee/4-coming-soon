@@ -13,6 +13,7 @@
 @import '../components/progress-bar.css';
 @import '../components/mouse.css';
 @import '../components/form.css';
+@import '../components/button.css';
 
 /* custom style below this comment line */
 .hero {
@@ -35,10 +36,14 @@
 .main-description {
     font-size: 1.25rem;
     text-align: center;
-z
+
 }
 footer.container {
     padding-top: 0;
+}
+
+footer .row {
+    
 }
 
 .row.socials {

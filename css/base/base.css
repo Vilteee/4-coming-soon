@@ -1,5 +1,6 @@
 :root {
     --main-color : #03a9f3;
+    --secondary-color-dark: #ea1e63;
 }
 body,
 body * {
@@ -17,6 +18,6 @@ body {
     background-color:var(--main-color);
 }
 .bg-secondary {
-    background-color: #ea1e63;
+    background-color: var(--secondary-color-dark);
 }
 
