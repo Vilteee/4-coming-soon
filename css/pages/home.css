@@ -7,12 +7,21 @@
 /* 3rd-party */
 @import '../3rd-party/font-awesome.min.css';
 
+
 /* components */
 @import '../components/clock.css';
 @import '../components/progress-bar.css';
+@import '../components/mouse.css';
+@import '../components/form.css';
+@import '../components/button.css';
 
 /* custom style below this comment line */
-
+.hero {
+    background-image: url(../../img/background.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
 
 .logo {
     width: 3rem;
@@ -25,22 +34,35 @@
 .main-description {
     font-size: 1.25rem;
     text-align: center;
-z
+
 }
 footer.container {
     padding-top: 0;
 }
 
-.row.socials {
+footer .row {
+    position: relative;
+}
+
+footer .row > .btn {
+    position: absolute;
+    top: -1.5em;
+    right: -1.5em;
+}
+
+.socials {
     display: flex;
-    gap: 10px;
-   font-size: 1.3rem;
+    width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    font-size: 1.3rem;
     border-bottom:  1px solid white;
     padding: 20px 0;
-    margin-bottom: 40px;
+    margin-bottom: 2rem;
 
 }
-.row.socials >a {
+.socials >a {
     height: 3em;
     width: 3em;
     line-height: 3em;
@@ -91,8 +113,6 @@ footer > .row-short a {
     right: -0.9rem;
     top: 50%;
     transform: translateY(-50%);
-
-    
 
     }
 

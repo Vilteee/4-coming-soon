@@ -3,9 +3,13 @@
     display: flex;
     flex-direction: column;
     width: 100%;
-    gap: 0.3rem;
-}
+    gap: 1rem;
 
+   
+}
+.bar-container {
+    margin-top: 40px;
+}
 .progress-bar > .top {
     display: flex;
     justify-content: space-between;
@@ -26,9 +30,31 @@
 }
 
 .progress-bar > .bottom > .progress {
+    height: 100%;
+    width: 90%;
+}
+
+.progress-bar .progress > .bar{
 background-color: #03a9f3;
 height: 100%;
-width: 90%;
+width: 0;
+animation-name: loading;
+animation-duration: 3s;
+animation-delay: 1s;
+animation-fill-mode: forwards;
+animation-iteration-count: 1;
+animation-timing-function: linear;
+
 
 }
 
+@keyframes loading {
+    0% {
+        width: 0%;
+     
+    }
+    100% {
+        width: 100%;
+     
+    }
+}
